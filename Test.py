@@ -1,5 +1,5 @@
 name = input("Insira seu nome ")
-age = input("Insira sua idade ")
-print(f"Olá {name} como vai? você tem {age} anos de idade e está apto para o mercado de trabalho")
+age = int(input("Insira sua idade "))
+print(f"Olá {name} como vai? {f"você tem {age} anos de idade e está apto para o mercado de trabalho" if age >= 18 else "você é de menor, portanto não pode trabalhar"}" )
 nacionalidade = input("Insira sua nacionalidade ")
 print(f"Que bacana {name}, você é {nacionalidade}, muito legal.")
