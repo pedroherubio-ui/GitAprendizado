@@ -1,5 +1,8 @@
-#name = input("Insira seu nome ")
-#age = int(input("Insira sua idade "))
+from module import INPUNAME
+
+
+name = input("Insira seu nome ")
+age = int(input("Insira sua idade "))
 #print(f"Olá {name} como vai? {f"você tem {age} anos de idade e está apto para o mercado de trabalho" if age >= 18 else "você é de menor, portanto não pode trabalhar"}" )
 #nacionalidade = input("Insira sua nacionalidade ")
 
@@ -33,6 +36,8 @@ except:
 finally:
     print("")
 
+from module import INPUNAME
+INPUNAME(name)
 
 
 #frutas = {"maçã", "banana", "laranja", "maçã"}  
